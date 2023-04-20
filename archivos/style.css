@@ -1,0 +1,72 @@
+.box {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px;
+    font-family: serif;
+   
+  }
+  ol{
+    list-style: none;
+    padding-left: 20px;
+    
+  }
+
+  .left {
+    text-justify: auto;
+    flex: 3 3 auto;
+    background-color: #9FB6CD;
+    height: 150vh;
+    align-items: center;
+
+  }
+
+  .lefttext{
+    margin: 10px;
+    padding: 20px;
+    
+
+  }
+  .profile{
+    text-align: center;
+
+
+}
+  .profileimage{
+    
+    width: 115px;
+    height: 115px;
+    border-radius: 65%;
+
+    
+  }
+
+.line{
+    border-top: 3px solid #193B5D;
+
+  }
+
+  .url{
+    color:#193B5D;
+  }
+
+
+  .right {
+    text-justify: auto;
+    flex: 1 1 auto;
+    background-color:#FCFDFF;
+    height: 150vh;
+    align-items: center;
+
+   
+  }
+  .rightttext{
+    margin: 10px;
+    padding: 20px;
+
+  }
+  h2{
+    background-color:#B9D4DC;
+  }
+
